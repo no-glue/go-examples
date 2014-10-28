@@ -3,5 +3,6 @@ package main
 import "fmt"
 // format
 func main() {
+  // run main
   fmt.Println("hello world")
 }
