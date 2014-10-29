@@ -6,7 +6,7 @@ import (
 )
 // ...
 func pinger(c chan string) {
-  for i := 0; ;i++ {
+  for {
     c <- "ping"
   }
 }
